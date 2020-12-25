@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STAR FITNESS</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@600&display=swap" rel="stylesheet">
+<style>
+body{
+    color: white; 
+    padding: 0px;
+    margin: 0px;
+    background: url('image/a.jpg');
+    font-family: 'Baloo Chettan 2', cursive;
+    
+}
+.left{
+    border: 2px solid rgb(10, 10, 10);
+    position:absolute;
+    left: 2px;
+    top: 20px;
+    display: inline-block;
+
+
+}
+.left img{
+    width: 134px;
+    filter: invert(50%);
+}
+.logo{
+    font-size: 16px;
+    color: rgb(147, 151, 151);
+    text-align: center;
+}
+
+.mid{
+    display: block;
+    border: 2px solid rgb(10, 10, 10);
+    width: 35%;
+    margin:  20px auto; 
+    padding: 1px ;
+    
+    
+}
+
+.right{
+    position:absolute;
+    right: 2px;
+    top: 20px;
+    border: 2px solid rgb(10, 10, 10);
+    display: inline-block;
+   
+
+}
+.btn{
+    margin: 25px 8px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 4px 14px;
+    border: white;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+.btn
+:hover{
+    background-color: green;
+}
+li{
+    padding: 2px;
+}
+.navbar{
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+}
+.navbar li{
+    display: inline-block;
+    padding: 20px;
+}
+.navbar li a{
+    font-size:15px;
+    color: white;
+    text-decoration: none;
+    padding:auto;
+    
+   
+}
+.navbar li a:hover,.navbar li a:active{
+color: rgb(17, 15, 15);
+background: rgb(218, 216, 216);
+text-decoration: underline;
+}
+.container{
+    border:3px solid rgb(8, 7, 7);
+    display: inline-block;
+   border-radius: 4px;
+   width: 26%;
+   margin: 20px 2px;
+   padding: 13px 29px; 
+}
+.container input{
+    border-radius: 6px;
+    width: 90%;
+    margin: 3px -6px;
+    font-family: 'Baloo Chettan 2', cursive;
+    padding: 8px 19px;
+    
+}
+h2{
+    text-align: center;
+}
+.btn2{
+    border: 3px solid white;
+    border-color: rgb(25, 106, 211);
+    background-color: rgb(218, 218, 236);
+    margin: 10px 140px;
+    padding: 6px 6px;
+    width: 25%;
+    cursor: pointer;
+    font-family: 'Baloo Chettan 2', cursive;
+    
+}
+.btn2 :hover{
+    color: red;
+    background-color: red;
+}
+
+</style>
+<body>
+    <header class="header">
+    <div class="left">
+
+        <img src="image/d.png" alt="">
+        <div class="logo">STAR FITNESS</div>
+    </div>
+
+
+
+    <div class="mid">
+<div class="navbar">
+<ul>
+<li><a href="#">HOME</a></li>
+<li><a href="#">SERVICE</a></li>
+<li><a href="#">ABOUT US</a></li>
+<li><a href="#">CONTACT US</a></li>
+</ul>
+    </div>
+    <div class="right">
+    <button class="btn">email us</button><button class="btn">HELP</button>
+    </div>
+
+</header>
+<div class="container">
+    <h2>JOIN OUR STAR GYM IN BEST PRICE</h2>
+    <h3>hurry up guys !!!</h3>
+    
+    <form action="backend.php">
+<input type="text" placeholder="NAME">
+<input type="text" placeholder="AGE">
+<input type="text" placeholder="GENDER">
+<input type="text" placeholder="LOCALITY">
+
+
+
+
+    </form>
+    <button class="btn2">submit</button>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>FOOD STORE</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Teko', sans-serif;
+        }
+
+
+        .navbar {
+            display: flex;
+
+        }
+
+        .navbar::before {
+            content: "";
+            background-color: black;
+            border-radius: 7px;
+            position: absolute;
+            z-index: -1;
+            height: 15%;
+            width: 100%;
+
+
+
+        }
+
+        .logo {
+            display: inline;
+            width: 10%;
+        }
+
+        .logo img {
+            margin: 18px;
+            padding: 0px;
+            width: 80%;
+            border: 3px solid white;
+            filter: invert(150%);
+            border-radius: 10px;
+
+        }
+
+        .menu {
+            padding: -1px;
+            margin: 23px;
+            list-style: none;
+            display: flex;
+            font-family: 'Sansita Swashed', cursive;
+            font-size: 25px;
+
+        }
+
+        .menu2 a {
+            color: black;
+
+        }
+
+        .menu2 a :hover {
+            color: rgb(179, 11, 11);
+            background-color: ;
+        }
+
+        #sagar a :hover {
+            color: red;
+        }
+
+        .navbar ul li {
+            padding: 7px;
+            margin: 7px;
+
+        }
+
+        #home {
+            display: flex;
+            flex-direction: column;
+            padding: 70px 200px;
+            align-items: center;
+            color: black;
+            justify-content: center;
+            font-size: 1.6rem;
+
+        }
+
+        #home::before {
+
+            content: "";
+            background: url('bg.jpg') no-repeat center center/cover;
+            border-radius: 7px;
+            position: absolute;
+            z-index: -1;
+            height: 100%;
+            width: 100%;
+            opacity: 1.5;
+
+        }
+
+        .btn {
+            background-color: #04a126;
+            color: white;
+            margin: 18px;
+            font-size: large;
+            border-radius: 20px;
+            padding: 21px;
+            width: 14%;
+            height: 20px;
+            box-sizing: border-box;
+            font-size: 20px;
+            cursor: pointer;
+
+        }
+
+        #service {
+            margin: 34px;
+            display: flex;
+        }
+
+        #service.box {
+            border-color: 3px solid rgb(190, 27, 27);
+        }
+
+
+        .h-secondary {
+            font-size: 1.8rem;
+            padding: 12px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <img src="logo/hrc.jpg" alt="sagar paliwal">
+        </div>
+        <ul class="menu">
+            <li class="menu2" id="sagar"><a href="#">HOME</a></li>
+            <li class="menu2"><a href="#">SERVICE</a>
+            </li>
+            <li class="menu2"><a href="#">ABOUT US</a>
+            </li>
+            <li class="menu2"><a href="#">CONTACT US</a>
+            </li>
+            <li class="menu2"><a href="#">HELP</a>
+            </li>
+        </ul>
+    </nav>
+    <hr>
+    <section id="home">
+        <h1 class="h-primary">welcome to our food store</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis placeat vel laudantium illum dignissimos nobis
+            corrupti sequi. .</p>
+        <p>Lorem ipsum dolor sit ametquam iste possimus? Doloribus, itaque.</p>
+        <button class="btn">order now</button>
+    </section>
+   
+
+</body>
+
+</html>
